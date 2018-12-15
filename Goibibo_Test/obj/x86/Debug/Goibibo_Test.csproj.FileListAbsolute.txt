@@ -1,0 +1,9 @@
+C:\Users\devendra.gupta\Documents\Ranorex\RanorexStudio Projects\Goibibo_Test\Goibibo_Test\bin\Debug\Goibibo_Test.rxtmg
+C:\Users\devendra.gupta\Documents\Ranorex\RanorexStudio Projects\Goibibo_Test\Goibibo_Test\bin\Debug\Goibibo_Test.rxtst
+C:\Users\devendra.gupta\Documents\Ranorex\RanorexStudio Projects\Goibibo_Test\Goibibo_Test\bin\Debug\Goibibo_Test.exe.config
+C:\Users\devendra.gupta\Documents\Ranorex\RanorexStudio Projects\Goibibo_Test\Goibibo_Test\bin\Debug\Goibibo_Test.exe
+C:\Users\devendra.gupta\Documents\Ranorex\RanorexStudio Projects\Goibibo_Test\Goibibo_Test\bin\Debug\Goibibo_Test.pdb
+C:\Users\devendra.gupta\Documents\Ranorex\RanorexStudio Projects\Goibibo_Test\Goibibo_Test\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\devendra.gupta\Documents\Ranorex\RanorexStudio Projects\Goibibo_Test\Goibibo_Test\obj\x86\Debug\Goibibo_Test.csprojResolveAssemblyReference.cache
+C:\Users\devendra.gupta\Documents\Ranorex\RanorexStudio Projects\Goibibo_Test\Goibibo_Test\obj\x86\Debug\Goibibo_Test.exe
+C:\Users\devendra.gupta\Documents\Ranorex\RanorexStudio Projects\Goibibo_Test\Goibibo_Test\obj\x86\Debug\Goibibo_Test.pdb
