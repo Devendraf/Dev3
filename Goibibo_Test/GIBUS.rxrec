@@ -34,19 +34,19 @@ rxversion="8.3">
 		button="Left"
 		duration="500ms"
 		enabled="True"
-		loc="4;15"
+		loc="13;17"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="88b29269-ffae-41e8-8610-05c5ca48b3ef"
-		sx="334"
-		sy="137"
+		searchpropertyid="84e4ff49-6312-4e6d-a304-b059b71e714c"
+		sx="340"
+		sy="140"
 		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="a8d0cd22-d2af-4a0e-833b-b881076cd191"
+			id="c02c09a9-16e3-4adb-8a41-fb31617694c4"
 			sourcename="Recorder">
 				<element
 				capabilities="webelement, itag"
@@ -56,7 +56,7 @@ rxversion="8.3">
 				hasfocus="False"
 				index="0"
 				prefcap="itag"
-				rect="330,122,24,38"
+				rect="327,123,24,38"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -87,14 +87,14 @@ rxversion="8.3">
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain='www.goibibo.com']/body/div[1]/div[1]/ul/li[4]/?/?/i
+					/dom[@domain='www.goibibo.com']//div[#'header']/div[1]/ul/?/?/a[@href~'^https://www\.goibibo\.com/b']/i
 				</path>
 			</info>
 			<helperscreenshot
-			guid="a08b8ba5-d00f-44b6-8d09-abcdedce3b63">
+			guid="06b56ca3-4484-4fde-9e90-04c4ab99c53c">
 				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
 YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABVADsDASIA
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABVADoDASIA
 AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
 AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
 ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
@@ -102,20 +102,21 @@ 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
-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
+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
 			</helperscreenshot>
 		</mouseitem>
 		<mouseitem

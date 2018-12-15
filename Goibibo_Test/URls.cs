@@ -667,9 +667,9 @@ namespace Goibibo_Test
             Mouse.ScrollWheel(720);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ReferEarn3XNowGoogleChrome.Close1' at 6;15.", repo.ReferEarn3XNowGoogleChrome.Close1Info, new RecordItemIndex(147));
-            repo.ReferEarn3XNowGoogleChrome.Close1.Click("6;15");
-            Delay.Milliseconds(200);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ReferEarn3XNowGoogleChrome.Close1' at 6;15.", repo.ReferEarn3XNowGoogleChrome.Close1Info, new RecordItemIndex(147));
+            //repo.ReferEarn3XNowGoogleChrome.Close1.Click("6;15");
+            //Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.goibibo.com/logoutuser/' with browser 'Chrome' in normal mode .", new RecordItemIndex(148));
             Host.Current.OpenBrowser("https://www.goibibo.com/logoutuser/", "Chrome", "", false, false, false, false, false, true);
@@ -683,9 +683,9 @@ namespace Goibibo_Test
             Mouse.ScrollWheel(720);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ReferEarn3XNowGoogleChrome.Close2' at 13;17.", repo.ReferEarn3XNowGoogleChrome.Close2Info, new RecordItemIndex(151));
-            repo.ReferEarn3XNowGoogleChrome.Close2.Click("13;17");
-            Delay.Milliseconds(200);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ReferEarn3XNowGoogleChrome.Close2' at 13;17.", repo.ReferEarn3XNowGoogleChrome.Close2Info, new RecordItemIndex(151));
+            //repo.ReferEarn3XNowGoogleChrome.Close2.Click("13;17");
+            //Delay.Milliseconds(200);
             
         }
 

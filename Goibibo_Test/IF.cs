@@ -251,6 +251,7 @@ namespace Goibibo_Test
             RepoItemInfo _spantagsignoutInfo;
             RepoItemInfo _gocashplusInfo;
             RepoItemInfo _settingsInfo;
+            RepoItemInfo _iconbusdbblueico24lh12padt5padb51Info;
 
             /// <summary>
             /// Creates a new OnlineFlightBookingHotelsBusAmp  folder.
@@ -363,6 +364,7 @@ namespace Goibibo_Test
                 _spantagsignoutInfo = new RepoItemInfo(this, "SpanTagSignOut", ".//div[#'hd_user_widdget']/div//span[@innertext=' SignOut']", 30000, null, "0da61bc0-a8c0-49ce-ac91-cad7249800bf");
                 _gocashplusInfo = new RepoItemInfo(this, "GoCashPlus", "body/div[6]/div/div[2]//ul/li[4]/a[@href='javascript:void(0);']/span[@innertext='goCash+']", 30000, null, "3c1288c9-38f7-4143-9dcc-be393c8d9aaf");
                 _settingsInfo = new RepoItemInfo(this, "Settings", "body/div[6]/div/div[2]//ul/li[5]/a[@href='javascript:void(0);']/span[@innertext='Settings']", 30000, null, "de439829-ae04-41fe-ab7a-ca7e588c079a");
+                _iconbusdbblueico24lh12padt5padb51Info = new RepoItemInfo(this, "IconBusDbBlueIco24Lh12PadT5PadB51", ".//div[#'header']/div[1]/ul/?/?/a[@href~'^https://www\\.goibibo\\.com/b']/i", 30000, null, "c02c09a9-16e3-4adb-8a41-fb31617694c4");
             }
 
             /// <summary>
@@ -2762,6 +2764,30 @@ namespace Goibibo_Test
                 get
                 {
                     return _settingsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The IconBusDbBlueIco24Lh12PadT5PadB51 item.
+            /// </summary>
+            [RepositoryItem("c02c09a9-16e3-4adb-8a41-fb31617694c4")]
+            public virtual Ranorex.ITag IconBusDbBlueIco24Lh12PadT5PadB51
+            {
+                get
+                {
+                    return _iconbusdbblueico24lh12padt5padb51Info.CreateAdapter<Ranorex.ITag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The IconBusDbBlueIco24Lh12PadT5PadB51 item info.
+            /// </summary>
+            [RepositoryItemInfo("c02c09a9-16e3-4adb-8a41-fb31617694c4")]
+            public virtual RepoItemInfo IconBusDbBlueIco24Lh12PadT5PadB51Info
+            {
+                get
+                {
+                    return _iconbusdbblueico24lh12padt5padb51Info;
                 }
             }
 

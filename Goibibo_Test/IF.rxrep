@@ -1390,6 +1390,16 @@ rxversion="8.3">
 				searchtimeout="30000ms">
 					/dom[@domain='www.goibibo.com']/body/div[6]/div/div[2]//ul/li[5]/a[@href='javascript:void(0);']/span[@innertext='Settings']
 				</item>
+				<item
+				addcaps="unknown,webelement,itag"
+				capname="itag"
+				id="c02c09a9-16e3-4adb-8a41-fb31617694c4"
+				name="IconBusDbBlueIco24Lh12PadT5PadB51"
+				refimgid="7164a38c-59d6-4add-aebf-ffdcdc9602fe"
+				refpath="/dom[@domain='www.goibibo.com' and @caption~'^Online\ flight\ booking,\ Ho']//div[#'header']/div[1]/ul/li[4]/a/i"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']//div[#'header']/div[1]/ul/?/?/a[@href~'^https://www\.goibibo\.com/b']/i
+				</item>
 				<basepath>
 					/dom[@domain='www.goibibo.com']
 				</basepath>

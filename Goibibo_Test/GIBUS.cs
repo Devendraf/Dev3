@@ -79,8 +79,8 @@ namespace Goibibo_Test
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Hotel.OnlineFlightBookingHotelsBusAmp.IconBusDbBlueIco24Lh12PadT5PadB5' at 4;15.", repo.Hotel.OnlineFlightBookingHotelsBusAmp.IconBusDbBlueIco24Lh12PadT5PadB5Info, new RecordItemIndex(0));
-            repo.Hotel.OnlineFlightBookingHotelsBusAmp.IconBusDbBlueIco24Lh12PadT5PadB5.Click("4;15");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Hotel.OnlineFlightBookingHotelsBusAmp.IconBusDbBlueIco24Lh12PadT5PadB51' at 13;17.", repo.Hotel.OnlineFlightBookingHotelsBusAmp.IconBusDbBlueIco24Lh12PadT5PadB51Info, new RecordItemIndex(0));
+            repo.Hotel.OnlineFlightBookingHotelsBusAmp.IconBusDbBlueIco24Lh12PadT5PadB51.Click("13;17");
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Hotel.OnlineFlightBookingHotelsBusAmp.GiSource' at 120;21.", repo.Hotel.OnlineFlightBookingHotelsBusAmp.GiSourceInfo, new RecordItemIndex(1));
