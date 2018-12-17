@@ -323,9 +323,9 @@ namespace Goibibo_Test
             repo.OnlineFlightBookingHotelsBusAmp.Header.ButtonTagOK.Click("26;10");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -240 units.", new RecordItemIndex(61));
-            Mouse.ScrollWheel(-240);
-            Delay.Milliseconds(500);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -240 units.", new RecordItemIndex(61));
+            //Mouse.ScrollWheel(-240);
+            //Delay.Milliseconds(500);
             
             //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.OfferScroll.ControlIndicatorVMiddle3' at 10;5.", repo.OnlineFlightBookingHotelsBusAmp.OfferScroll.ControlIndicatorVMiddle3Info, new RecordItemIndex(62));
             //repo.OnlineFlightBookingHotelsBusAmp.OfferScroll.ControlIndicatorVMiddle3.Click("10;5");

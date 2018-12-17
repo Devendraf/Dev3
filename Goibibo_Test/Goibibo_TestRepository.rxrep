@@ -356,6 +356,59 @@ rxversion="8.3">
 			searchtimeout="30000ms">
 				/dom[@domain='www.goibibo.com']/body/div[1]/?/?/a[@href='https://www.goibibo.com/']
 			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="f70abc9e-0e36-4df0-86da-ef2ea933bbb5"
+			name="GoibiboOffers"
+			refimgid="a19c62cf-e322-48b5-be27-d8598c605586"
+			refpath="/dom[@domain='www.goibibo.com']//div[#'fareSummary']/div[1]/div[2]/div[1]/div[2]/div[1]/div[@innertext='Goibibo offers']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//div[#'fareSummary']/div[1]/div[2]/div[1]/div[2]/div[1]/div[@innertext='Goibibo offers']
+			</item>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="996eeb12-6da4-48ab-9163-483e2ec8e922"
+			isrooted="True"
+			name="FlightDetailsFl"
+			refpath="/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[2]/div/div[1]"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="7f873750-fced-4db3-b892-f014404cd97f"
+				name="InsuranceRadio"
+				refimgid="f2b33bb2-a77f-42ac-a81a-90e88074d701"
+				refpath="/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/input[@name='insuranceRadio']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[2]/div/div[1]/div[2]//input[@name='insuranceRadio']
+				</item>
+				<item
+				addcaps="unknown,webelement,itag"
+				capname="itag"
+				id="826e59d1-804c-4f41-af74-b5bb2f330403"
+				name="IconInfoOp07Ico14PadT2PadL5BlueLt"
+				refimgid="2bb951d2-15f3-42ba-9828-8790ef34a5a8"
+				refpath="/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[2]/div/div[1]/div[3]/div[2]/div[2]/div/div[2]/label/span[@innertext='Lock Fare @0 ']/i[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[2]/div/div[1]/div[3]/div[2]/div[2]//span[@innertext='Lock Fare @0 ']/i[2]
+				</item>
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="fffb047f-2efa-40c8-83fd-2073a56c99b7"
+				name="ButtonTagOK"
+				refimgid="68304afd-104a-415a-97ba-d174e3d9c5f5"
+				refpath="/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[2]/div/div[1]/div[3]/div[2]/div[4]/div[2]/div/div/div[2]/button[@innertext='OK']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[2]/div/div[1]/div[3]/div[2]/div[4]/div[2]/div/div/?/?/button[@innertext='OK']
+				</item>
+				<basepath>
+					/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[2]/div/div[1]
+				</basepath>
+			</folder>
 			<basepath>
 				/dom[@domain='www.goibibo.com']
 			</basepath>
@@ -833,6 +886,16 @@ X/kbNG0rDiYbOAsAAAAASUVORK5CYII=
 				searchtimeout="30000ms">
 					/dom[@domain='www.goibibo.com']//div[#'sticky']/?/?/ul/li[3]/ul//label[@innertext='Non Stop']
 				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="623c8acd-9d86-4cfb-84a7-841d40b74a44"
+				name="AirIndia"
+				refimgid="2a87f4cf-4de0-44ed-85ba-8fd7dc939af3"
+				refpath="/dom[@domain='www.goibibo.com']//div[#'sticky']/div/ul/li[4]/ul/li[4]/span[1]/label[@innertext='Air India']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']//div[#'sticky']/?/?/ul/li[4]/ul//label[@innertext='Air India']
+				</item>
 				<basepath>
 					/dom[@domain='www.goibibo.com']//div[#'sticky']/?/?/ul
 				</basepath>
@@ -969,6 +1032,16 @@ X/kbNG0rDiYbOAsAAAAASUVORK5CYII=
 			refpath="/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[4]/div/div[4]/div[2]/div[2]/div[2]/div/span[1]/span/input[@type='button']"
 			searchtimeout="30000ms">
 				/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[4]/div/div[4]/div[2]/div[2]/div[2]/div/span[1]/?/?/input[@type='button']
+			</item>
+			<item
+			addcaps="unknown,webelement,itag"
+			capname="itag"
+			id="e84b49ff-510d-4e9a-ac0f-1cba0dbacd72"
+			name="IconArrowDownFlDownArrFilter"
+			refimgid="52412503-e29d-481f-8dec-421c76a8f4e0"
+			refpath="/dom[@domain='www.goibibo.com']//a[#'airlinesFilter']/span/i[2]"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//a[#'airlinesFilter']/span/i[2]
 			</item>
 			<basepath>
 				/dom[@domain='www.goibibo.com']

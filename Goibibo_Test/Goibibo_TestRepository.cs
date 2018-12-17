@@ -171,6 +171,7 @@ namespace Goibibo_Test
         {
             Goibibo_TestRepositoryFolders.AuthiframeFolder _authiframe;
             Goibibo_TestRepositoryFolders.RootFolder _root;
+            Goibibo_TestRepositoryFolders.FlightDetailsFlFolder _flightdetailsfl;
             RepoItemInfo _httpsgoibiboibcdncomstyleguideimaInfo;
             RepoItemInfo _getsigninInfo;
             RepoItemInfo _iconairporttransferdbblueico24lh1Info;
@@ -182,6 +183,7 @@ namespace Goibibo_Test
             RepoItemInfo _paynetbrbInfo;
             RepoItemInfo _submitInfo;
             RepoItemInfo _httpswwwgoibibocomInfo;
+            RepoItemInfo _goibibooffersInfo;
 
             /// <summary>
             /// Creates a new OnlineFlightBookingHotelsBusAmp  folder.
@@ -191,6 +193,7 @@ namespace Goibibo_Test
             {
                 _authiframe = new Goibibo_TestRepositoryFolders.AuthiframeFolder(this);
                 _root = new Goibibo_TestRepositoryFolders.RootFolder(this);
+                _flightdetailsfl = new Goibibo_TestRepositoryFolders.FlightDetailsFlFolder(this);
                 _httpsgoibiboibcdncomstyleguideimaInfo = new RepoItemInfo(this, "HttpsGoibiboIbcdnComStyleguideIma", ".//div[#'header']//img[@src='https://goibibo.ibcdn.com/styleguide/images/goLogo.png']", 30000, null, "04208390-ec35-4a8d-8c41-a93fef2fe4c6");
                 _getsigninInfo = new RepoItemInfo(this, "GetSignIn", ".//a[#'get_sign_in']", 30000, null, "acb6c5f3-f062-402d-8f74-d1a2d2bfd0c5");
                 _iconairporttransferdbblueico24lh1Info = new RepoItemInfo(this, "IconAirportTransferDbBlueIco24Lh1", ".//div[#'header']/div[1]/ul/?/?/a[@href~'^https://www\\.goibibo\\.com/c']/i", 30000, null, "f1c7b618-8f0f-4f19-9575-435c4535bc77");
@@ -202,6 +205,7 @@ namespace Goibibo_Test
                 _paynetbrbInfo = new RepoItemInfo(this, "PayNetbRb", ".//div[#'netBank']/div[2]/div[6]/?/?/input[@name='pay_netb_rb']", 30000, null, "f701c6df-d793-4e58-8ae2-68b77d7be940");
                 _submitInfo = new RepoItemInfo(this, "Submit", ".//div[#'netBank']/div[3]/div[4]/?/?/input[@type='submit']", 30000, null, "47e9d22f-9625-40b8-8b59-69f0fd34e622");
                 _httpswwwgoibibocomInfo = new RepoItemInfo(this, "HttpsWwwGoibiboCom", "body/div[1]/?/?/a[@href='https://www.goibibo.com/']", 30000, null, "252e84bb-1523-4f74-bb1f-f87cf78812cc");
+                _goibibooffersInfo = new RepoItemInfo(this, "GoibiboOffers", ".//div[#'fareSummary']/div[1]/div[2]/div[1]/div[2]/div[1]/div[@innertext='Goibibo offers']", 30000, null, "f70abc9e-0e36-4df0-86da-ef2ea933bbb5");
             }
 
             /// <summary>
@@ -493,6 +497,30 @@ namespace Goibibo_Test
             }
 
             /// <summary>
+            /// The GoibiboOffers item.
+            /// </summary>
+            [RepositoryItem("f70abc9e-0e36-4df0-86da-ef2ea933bbb5")]
+            public virtual Ranorex.DivTag GoibiboOffers
+            {
+                get
+                {
+                    return _goibibooffersInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The GoibiboOffers item info.
+            /// </summary>
+            [RepositoryItemInfo("f70abc9e-0e36-4df0-86da-ef2ea933bbb5")]
+            public virtual RepoItemInfo GoibiboOffersInfo
+            {
+                get
+                {
+                    return _goibibooffersInfo;
+                }
+            }
+
+            /// <summary>
             /// The Authiframe folder.
             /// </summary>
             [RepositoryFolder("4f5dc020-2535-4432-9d12-117d34222d89")]
@@ -508,6 +536,15 @@ namespace Goibibo_Test
             public virtual Goibibo_TestRepositoryFolders.RootFolder Root
             {
                 get { return _root; }
+            }
+
+            /// <summary>
+            /// The FlightDetailsFl folder.
+            /// </summary>
+            [RepositoryFolder("996eeb12-6da4-48ab-9163-483e2ec8e922")]
+            public virtual Goibibo_TestRepositoryFolders.FlightDetailsFlFolder FlightDetailsFl
+            {
+                get { return _flightdetailsfl; }
             }
         }
 
@@ -1086,6 +1123,124 @@ namespace Goibibo_Test
         }
 
         /// <summary>
+        /// The FlightDetailsFlFolder folder.
+        /// </summary>
+        [RepositoryFolder("996eeb12-6da4-48ab-9163-483e2ec8e922")]
+        public partial class FlightDetailsFlFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _insuranceradioInfo;
+            RepoItemInfo _iconinfoop07ico14padt2padl5blueltInfo;
+            RepoItemInfo _buttontagokInfo;
+
+            /// <summary>
+            /// Creates a new FlightDetailsFl  folder.
+            /// </summary>
+            public FlightDetailsFlFolder(RepoGenBaseFolder parentFolder) :
+                    base("FlightDetailsFl", ".//div[#'content']/div/div[2]/div/div[2]/div/div[1]", parentFolder, 30000, null, false, "996eeb12-6da4-48ab-9163-483e2ec8e922", "")
+            {
+                _insuranceradioInfo = new RepoItemInfo(this, "InsuranceRadio", "div[2]//input[@name='insuranceRadio']", 30000, null, "7f873750-fced-4db3-b892-f014404cd97f");
+                _iconinfoop07ico14padt2padl5blueltInfo = new RepoItemInfo(this, "IconInfoOp07Ico14PadT2PadL5BlueLt", "div[3]/div[2]/div[2]//span[@innertext='Lock Fare @0 ']/i[2]", 30000, null, "826e59d1-804c-4f41-af74-b5bb2f330403");
+                _buttontagokInfo = new RepoItemInfo(this, "ButtonTagOK", "div[3]/div[2]/div[4]/div[2]/div/div/?/?/button[@innertext='OK']", 30000, null, "fffb047f-2efa-40c8-83fd-2073a56c99b7");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("996eeb12-6da4-48ab-9163-483e2ec8e922")]
+            public virtual Ranorex.DivTag Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("996eeb12-6da4-48ab-9163-483e2ec8e922")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The InsuranceRadio item.
+            /// </summary>
+            [RepositoryItem("7f873750-fced-4db3-b892-f014404cd97f")]
+            public virtual Ranorex.InputTag InsuranceRadio
+            {
+                get
+                {
+                    return _insuranceradioInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The InsuranceRadio item info.
+            /// </summary>
+            [RepositoryItemInfo("7f873750-fced-4db3-b892-f014404cd97f")]
+            public virtual RepoItemInfo InsuranceRadioInfo
+            {
+                get
+                {
+                    return _insuranceradioInfo;
+                }
+            }
+
+            /// <summary>
+            /// The IconInfoOp07Ico14PadT2PadL5BlueLt item.
+            /// </summary>
+            [RepositoryItem("826e59d1-804c-4f41-af74-b5bb2f330403")]
+            public virtual Ranorex.ITag IconInfoOp07Ico14PadT2PadL5BlueLt
+            {
+                get
+                {
+                    return _iconinfoop07ico14padt2padl5blueltInfo.CreateAdapter<Ranorex.ITag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The IconInfoOp07Ico14PadT2PadL5BlueLt item info.
+            /// </summary>
+            [RepositoryItemInfo("826e59d1-804c-4f41-af74-b5bb2f330403")]
+            public virtual RepoItemInfo IconInfoOp07Ico14PadT2PadL5BlueLtInfo
+            {
+                get
+                {
+                    return _iconinfoop07ico14padt2padl5blueltInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ButtonTagOK item.
+            /// </summary>
+            [RepositoryItem("fffb047f-2efa-40c8-83fd-2073a56c99b7")]
+            public virtual Ranorex.ButtonTag ButtonTagOK
+            {
+                get
+                {
+                    return _buttontagokInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ButtonTagOK item info.
+            /// </summary>
+            [RepositoryItemInfo("fffb047f-2efa-40c8-83fd-2073a56c99b7")]
+            public virtual RepoItemInfo ButtonTagOKInfo
+            {
+                get
+                {
+                    return _buttontagokInfo;
+                }
+            }
+        }
+
+        /// <summary>
         /// The IFFolder folder.
         /// </summary>
         [RepositoryFolder("89c041f0-7fc5-40b6-98a3-18d5dd877724")]
@@ -1119,7 +1274,7 @@ namespace Goibibo_Test
         [RepositoryFolder("96770d85-d833-40cb-b455-976a25dc90ea")]
         public partial class OnlineFlightBookingHotelsBusAmp1AppFolder : RepoGenBaseFolder
         {
-            Goibibo_TestRepositoryFolders.FlightDetailsFlFolder _flightdetailsfl;
+            Goibibo_TestRepositoryFolders.FlightDetailsFlFolder1 _flightdetailsfl;
             Goibibo_TestRepositoryFolders.NavSectionTabsFolder _navsectiontabs;
             Goibibo_TestRepositoryFolders.BorderAllPosRelWhiteBgCrdShdwBrRadiu1Folder _borderallposrelwhitebgcrdshdwbrradiu1;
             RepoItemInfo _iconflightsdbblueico24lh12padt5pInfo;
@@ -1161,6 +1316,7 @@ namespace Goibibo_Test
             RepoItemInfo _amazonpayInfo;
             RepoItemInfo _upitabInfo;
             RepoItemInfo _button1Info;
+            RepoItemInfo _iconarrowdownfldownarrfilterInfo;
 
             /// <summary>
             /// Creates a new OnlineFlightBookingHotelsBusAmp1  folder.
@@ -1168,7 +1324,7 @@ namespace Goibibo_Test
             public OnlineFlightBookingHotelsBusAmp1AppFolder(RepoGenBaseFolder parentFolder) :
                     base("OnlineFlightBookingHotelsBusAmp1", "/dom[@domain='www.goibibo.com']", parentFolder, 30000, null, false, "96770d85-d833-40cb-b455-976a25dc90ea", "")
             {
-                _flightdetailsfl = new Goibibo_TestRepositoryFolders.FlightDetailsFlFolder(this);
+                _flightdetailsfl = new Goibibo_TestRepositoryFolders.FlightDetailsFlFolder1(this);
                 _navsectiontabs = new Goibibo_TestRepositoryFolders.NavSectionTabsFolder(this);
                 _borderallposrelwhitebgcrdshdwbrradiu1 = new Goibibo_TestRepositoryFolders.BorderAllPosRelWhiteBgCrdShdwBrRadiu1Folder(this);
                 _iconflightsdbblueico24lh12padt5pInfo = new RepoItemInfo(this, "IconFlightsDbBlueIco24Lh12PadT5P", ".//div[#'header']/div[1]/ul//i", 30000, null, "b7b66c84-1d18-44b6-a1bf-d1064a653ce1");
@@ -1210,6 +1366,7 @@ namespace Goibibo_Test
                 _amazonpayInfo = new RepoItemInfo(this, "AmazonPay", ".//ul[#'tabnav_opts']/?/?/a[@innertext~'^Amazon\\ Pay\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ ']", 30000, null, "ddcec806-bb19-40ad-bb5d-f6f9b3a5248f");
                 _upitabInfo = new RepoItemInfo(this, "UpiTab", ".//a[#'upi_tab']", 30000, null, "ebc85423-4e8a-416f-a555-c77b58c8dc04");
                 _button1Info = new RepoItemInfo(this, "Button1", ".//div[#'content']/div/div[2]/div/div[4]/div/div[4]/div[2]/div[2]/div[2]/div/span[1]/?/?/input[@type='button']", 30000, null, "46f6601d-7303-495f-a884-c518d2542633");
+                _iconarrowdownfldownarrfilterInfo = new RepoItemInfo(this, "IconArrowDownFlDownArrFilter", ".//a[#'airlinesFilter']/span/i[2]", 30000, null, "e84b49ff-510d-4e9a-ac0f-1cba0dbacd72");
             }
 
             /// <summary>
@@ -2173,10 +2330,34 @@ namespace Goibibo_Test
             }
 
             /// <summary>
+            /// The IconArrowDownFlDownArrFilter item.
+            /// </summary>
+            [RepositoryItem("e84b49ff-510d-4e9a-ac0f-1cba0dbacd72")]
+            public virtual Ranorex.ITag IconArrowDownFlDownArrFilter
+            {
+                get
+                {
+                    return _iconarrowdownfldownarrfilterInfo.CreateAdapter<Ranorex.ITag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The IconArrowDownFlDownArrFilter item info.
+            /// </summary>
+            [RepositoryItemInfo("e84b49ff-510d-4e9a-ac0f-1cba0dbacd72")]
+            public virtual RepoItemInfo IconArrowDownFlDownArrFilterInfo
+            {
+                get
+                {
+                    return _iconarrowdownfldownarrfilterInfo;
+                }
+            }
+
+            /// <summary>
             /// The FlightDetailsFl folder.
             /// </summary>
             [RepositoryFolder("ee635338-262a-4cc4-8ceb-18ee5a8f9e29")]
-            public virtual Goibibo_TestRepositoryFolders.FlightDetailsFlFolder FlightDetailsFl
+            public virtual Goibibo_TestRepositoryFolders.FlightDetailsFlFolder1 FlightDetailsFl
             {
                 get { return _flightdetailsfl; }
             }
@@ -2201,10 +2382,10 @@ namespace Goibibo_Test
         }
 
         /// <summary>
-        /// The FlightDetailsFlFolder folder.
+        /// The FlightDetailsFlFolder1 folder.
         /// </summary>
         [RepositoryFolder("ee635338-262a-4cc4-8ceb-18ee5a8f9e29")]
-        public partial class FlightDetailsFlFolder : RepoGenBaseFolder
+        public partial class FlightDetailsFlFolder1 : RepoGenBaseFolder
         {
             RepoItemInfo _baggageandfarerulesInfo;
             RepoItemInfo _javascriptvoid0Info;
@@ -2216,7 +2397,7 @@ namespace Goibibo_Test
             /// <summary>
             /// Creates a new FlightDetailsFl  folder.
             /// </summary>
-            public FlightDetailsFlFolder(RepoGenBaseFolder parentFolder) :
+            public FlightDetailsFlFolder1(RepoGenBaseFolder parentFolder) :
                     base("FlightDetailsFl", ".//div[#'content']/div/div[2]/div/div[2]/div/div[1]", parentFolder, 30000, null, false, "ee635338-262a-4cc4-8ceb-18ee5a8f9e29", "")
             {
                 _baggageandfarerulesInfo = new RepoItemInfo(this, "BaggageAndFareRules", "div[1]/div[2]//a[@innertext='Baggage and Fare Rules']", 30000, null, "275c0c1a-0d6e-4b89-b70e-7cbaa1627ed7");
@@ -2407,6 +2588,7 @@ namespace Goibibo_Test
             RepoItemInfo _labeltag2stopsInfo;
             RepoItemInfo _allstopsInfo;
             RepoItemInfo _nonstopInfo;
+            RepoItemInfo _airindiaInfo;
 
             /// <summary>
             /// Creates a new NavSectionTabs  folder.
@@ -2419,6 +2601,7 @@ namespace Goibibo_Test
                 _labeltag2stopsInfo = new RepoItemInfo(this, "LabelTag2Stops", "li[3]/ul//label[@innertext='2 Stops']", 30000, null, "48a0665a-3c7e-4a4f-837b-1007c7daace7");
                 _allstopsInfo = new RepoItemInfo(this, "AllStops", "li[3]/ul//label[@innertext='All Stops']", 30000, null, "5bacb953-3bc6-45d7-967b-d610a9604454");
                 _nonstopInfo = new RepoItemInfo(this, "NonStop", "li[3]/ul//label[@innertext='Non Stop']", 30000, null, "76e90165-ccec-41fa-ba3f-f96b95d2d721");
+                _airindiaInfo = new RepoItemInfo(this, "AirIndia", "li[4]/ul//label[@innertext='Air India']", 30000, null, "623c8acd-9d86-4cfb-84a7-841d40b74a44");
             }
 
             /// <summary>
@@ -2562,6 +2745,30 @@ namespace Goibibo_Test
                 get
                 {
                     return _nonstopInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AirIndia item.
+            /// </summary>
+            [RepositoryItem("623c8acd-9d86-4cfb-84a7-841d40b74a44")]
+            public virtual Ranorex.LabelTag AirIndia
+            {
+                get
+                {
+                    return _airindiaInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AirIndia item info.
+            /// </summary>
+            [RepositoryItemInfo("623c8acd-9d86-4cfb-84a7-841d40b74a44")]
+            public virtual RepoItemInfo AirIndiaInfo
+            {
+                get
+                {
+                    return _airindiaInfo;
                 }
             }
         }

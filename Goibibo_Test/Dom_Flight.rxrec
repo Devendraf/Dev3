@@ -6419,7 +6419,7 @@ RRRQAneloooAKKKKACiiigD/2Q==
 		<mousewheelitem
 		delta="-240"
 		duration="500ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		orientation="Vertical">
 			<comment>
