@@ -1160,6 +1160,7 @@ namespace Goibibo_Test
             RepoItemInfo _httpsgoibiboibcdncomstyleguideimaInfo;
             RepoItemInfo _amazonpayInfo;
             RepoItemInfo _upitabInfo;
+            RepoItemInfo _button1Info;
 
             /// <summary>
             /// Creates a new OnlineFlightBookingHotelsBusAmp1  folder.
@@ -1208,6 +1209,7 @@ namespace Goibibo_Test
                 _httpsgoibiboibcdncomstyleguideimaInfo = new RepoItemInfo(this, "HttpsGoibiboIbcdnComStyleguideIma", "body/div[1]/?/?/a[@href='https://www.goibibo.com/']/img[@src='https://goibibo.ibcdn.com/styleguide/images/goLogo.png']", 30000, null, "4b5ac744-f9e0-4e2d-8039-d670652d3d4c");
                 _amazonpayInfo = new RepoItemInfo(this, "AmazonPay", ".//ul[#'tabnav_opts']/?/?/a[@innertext~'^Amazon\\ Pay\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ ']", 30000, null, "ddcec806-bb19-40ad-bb5d-f6f9b3a5248f");
                 _upitabInfo = new RepoItemInfo(this, "UpiTab", ".//a[#'upi_tab']", 30000, null, "ebc85423-4e8a-416f-a555-c77b58c8dc04");
+                _button1Info = new RepoItemInfo(this, "Button1", ".//div[#'content']/div/div[2]/div/div[4]/div/div[4]/div[2]/div[2]/div[2]/div/span[1]/?/?/input[@type='button']", 30000, null, "46f6601d-7303-495f-a884-c518d2542633");
             }
 
             /// <summary>
@@ -2143,6 +2145,30 @@ namespace Goibibo_Test
                 get
                 {
                     return _upitabInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Button1 item.
+            /// </summary>
+            [RepositoryItem("46f6601d-7303-495f-a884-c518d2542633")]
+            public virtual Ranorex.InputTag Button1
+            {
+                get
+                {
+                    return _button1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Button1 item info.
+            /// </summary>
+            [RepositoryItemInfo("46f6601d-7303-495f-a884-c518d2542633")]
+            public virtual RepoItemInfo Button1Info
+            {
+                get
+                {
+                    return _button1Info;
                 }
             }
 

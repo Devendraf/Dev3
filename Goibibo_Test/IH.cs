@@ -333,31 +333,19 @@ namespace Goibibo_Test
             repo.Hotel.OnlineFlightBookingHotelsBusAmp.TabnavOpts.NetBanking.Click("69;16");
             Delay.Milliseconds(200);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Hotel.OnlineFlightBookingHotelsBusAmp.PayNetbRb' at 5;8.", repo.Hotel.OnlineFlightBookingHotelsBusAmp.PayNetbRbInfo, new RecordItemIndex(63));
-            //repo.Hotel.OnlineFlightBookingHotelsBusAmp.PayNetbRb.Click("5;8");
-            //Delay.Milliseconds(200);
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Hotel.OnlineFlightBookingHotelsBusAmp.Submit' at 174;23.", repo.Hotel.OnlineFlightBookingHotelsBusAmp.SubmitInfo, new RecordItemIndex(64));
-            //repo.Hotel.OnlineFlightBookingHotelsBusAmp.Submit.Click("174;23");
-            //Delay.Milliseconds(200);
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Hotel.StateBankOfIndiaInternetBanking.ClickHere' at 11;3.", repo.Hotel.StateBankOfIndiaInternetBanking.ClickHereInfo, new RecordItemIndex(65));
-            //repo.Hotel.StateBankOfIndiaInternetBanking.ClickHere.Click("11;3");
-            //Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Hotel.OnlineFlightBookingHotelsBusAmp.PayNetbRb' at 8;0.", repo.Hotel.OnlineFlightBookingHotelsBusAmp.PayNetbRbInfo, new RecordItemIndex(66));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Hotel.OnlineFlightBookingHotelsBusAmp.PayNetbRb' at 8;0.", repo.Hotel.OnlineFlightBookingHotelsBusAmp.PayNetbRbInfo, new RecordItemIndex(63));
             repo.Hotel.OnlineFlightBookingHotelsBusAmp.PayNetbRb.Click("8;0");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Hotel.OnlineFlightBookingHotelsBusAmp.Submit' at 196;12.", repo.Hotel.OnlineFlightBookingHotelsBusAmp.SubmitInfo, new RecordItemIndex(67));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Hotel.OnlineFlightBookingHotelsBusAmp.Submit' at 196;12.", repo.Hotel.OnlineFlightBookingHotelsBusAmp.SubmitInfo, new RecordItemIndex(64));
             repo.Hotel.OnlineFlightBookingHotelsBusAmp.Submit.Click("196;12");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Hotel.StateBankOfIndiaInternetBanking.ClickHere' at 21;4.", repo.Hotel.StateBankOfIndiaInternetBanking.ClickHereInfo, new RecordItemIndex(68));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Hotel.StateBankOfIndiaInternetBanking.ClickHere' at 21;4.", repo.Hotel.StateBankOfIndiaInternetBanking.ClickHereInfo, new RecordItemIndex(65));
             repo.Hotel.StateBankOfIndiaInternetBanking.ClickHere.Click("21;4");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Hotel.OnlineFlightBookingHotelsBusAmp.HttpsGoibiboIbcdnComStyleguideIma' at 54;12.", repo.Hotel.OnlineFlightBookingHotelsBusAmp.HttpsGoibiboIbcdnComStyleguideImaInfo, new RecordItemIndex(69));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Hotel.OnlineFlightBookingHotelsBusAmp.HttpsGoibiboIbcdnComStyleguideIma' at 54;12.", repo.Hotel.OnlineFlightBookingHotelsBusAmp.HttpsGoibiboIbcdnComStyleguideImaInfo, new RecordItemIndex(66));
             repo.Hotel.OnlineFlightBookingHotelsBusAmp.HttpsGoibiboIbcdnComStyleguideIma.Click("54;12");
             Delay.Milliseconds(200);
             

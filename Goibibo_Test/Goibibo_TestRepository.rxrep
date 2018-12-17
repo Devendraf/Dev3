@@ -960,6 +960,16 @@ X/kbNG0rDiYbOAsAAAAASUVORK5CYII=
 					/dom[@domain='www.goibibo.com']//div[#'fareSummary']/div[1]/div[1]
 				</basepath>
 			</folder>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="46f6601d-7303-495f-a884-c518d2542633"
+			name="Button1"
+			refimgid="6670f126-5126-435c-b66e-d29eb32a4b38"
+			refpath="/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[4]/div/div[4]/div[2]/div[2]/div[2]/div/span[1]/span/input[@type='button']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[4]/div/div[4]/div[2]/div[2]/div[2]/div/span[1]/?/?/input[@type='button']
+			</item>
 			<basepath>
 				/dom[@domain='www.goibibo.com']
 			</basepath>
