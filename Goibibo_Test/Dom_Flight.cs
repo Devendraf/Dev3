@@ -323,151 +323,139 @@ namespace Goibibo_Test
             repo.OnlineFlightBookingHotelsBusAmp.Header.ButtonTagOK.Click("26;10");
             Delay.Milliseconds(200);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -240 units.", new RecordItemIndex(61));
-            //Mouse.ScrollWheel(-240);
-            //Delay.Milliseconds(500);
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.OfferScroll.ControlIndicatorVMiddle3' at 10;5.", repo.OnlineFlightBookingHotelsBusAmp.OfferScroll.ControlIndicatorVMiddle3Info, new RecordItemIndex(62));
-            //repo.OnlineFlightBookingHotelsBusAmp.OfferScroll.ControlIndicatorVMiddle3.Click("10;5");
-            //Delay.Milliseconds(200);
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.Header.ButtonTagOK' at 19;10.", repo.OnlineFlightBookingHotelsBusAmp.Header.ButtonTagOKInfo, new RecordItemIndex(63));
-            //repo.OnlineFlightBookingHotelsBusAmp.Header.ButtonTagOK.Click("19;10");
-            //Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.CancellationRadio' at 8;3.", repo.OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.CancellationRadioInfo, new RecordItemIndex(64));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.CancellationRadio' at 8;3.", repo.OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.CancellationRadioInfo, new RecordItemIndex(61));
             repo.OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.CancellationRadio.Click("8;3");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -480 units.", new RecordItemIndex(65));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -480 units.", new RecordItemIndex(62));
             Mouse.ScrollWheel(-480);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 360 units.", new RecordItemIndex(66));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 360 units.", new RecordItemIndex(63));
             Mouse.ScrollWheel(360);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.CancellationRadio' at 5;10.", repo.OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.CancellationRadioInfo, new RecordItemIndex(67));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.CancellationRadio' at 5;10.", repo.OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.CancellationRadioInfo, new RecordItemIndex(64));
             repo.OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.CancellationRadio.Click("5;10");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 480 units.", new RecordItemIndex(68));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 480 units.", new RecordItemIndex(65));
             Mouse.ScrollWheel(480);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -1320 units.", new RecordItemIndex(69));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -1320 units.", new RecordItemIndex(66));
             Mouse.ScrollWheel(-1320);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.InsuranceRadio' at 2;11.", repo.OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.InsuranceRadioInfo, new RecordItemIndex(70));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.InsuranceRadio' at 2;11.", repo.OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.InsuranceRadioInfo, new RecordItemIndex(67));
             repo.OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.InsuranceRadio.Click("2;11");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.InsuranceRadio' at 2;11.", repo.OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.InsuranceRadioInfo, new RecordItemIndex(71));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.InsuranceRadio' at 2;11.", repo.OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.InsuranceRadioInfo, new RecordItemIndex(68));
             repo.OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.InsuranceRadio.Click("2;11");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -600 units.", new RecordItemIndex(72));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -600 units.", new RecordItemIndex(69));
             Mouse.ScrollWheel(-600);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '1' on item 'OnlineFlightBookingHotelsBusAmp.Adulttitle1'.", repo.OnlineFlightBookingHotelsBusAmp.Adulttitle1Info, new RecordItemIndex(73));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '1' on item 'OnlineFlightBookingHotelsBusAmp.Adulttitle1'.", repo.OnlineFlightBookingHotelsBusAmp.Adulttitle1Info, new RecordItemIndex(70));
             repo.OnlineFlightBookingHotelsBusAmp.Adulttitle1.Element.SetAttributeValue("TagValue", "1");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.AdultfirstName1' at 79;23.", repo.OnlineFlightBookingHotelsBusAmp.AdultfirstName1Info, new RecordItemIndex(74));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.AdultfirstName1' at 79;23.", repo.OnlineFlightBookingHotelsBusAmp.AdultfirstName1Info, new RecordItemIndex(71));
             repo.OnlineFlightBookingHotelsBusAmp.AdultfirstName1.Click("79;23");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Devendra' with focus on 'OnlineFlightBookingHotelsBusAmp.AdultfirstName1'.", repo.OnlineFlightBookingHotelsBusAmp.AdultfirstName1Info, new RecordItemIndex(75));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Devendra' with focus on 'OnlineFlightBookingHotelsBusAmp.AdultfirstName1'.", repo.OnlineFlightBookingHotelsBusAmp.AdultfirstName1Info, new RecordItemIndex(72));
             repo.OnlineFlightBookingHotelsBusAmp.AdultfirstName1.PressKeys("Devendra");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.AdultlastName1' at 31;18.", repo.OnlineFlightBookingHotelsBusAmp.AdultlastName1Info, new RecordItemIndex(76));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.AdultlastName1' at 31;18.", repo.OnlineFlightBookingHotelsBusAmp.AdultlastName1Info, new RecordItemIndex(73));
             repo.OnlineFlightBookingHotelsBusAmp.AdultlastName1.Click("31;18");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Gupta' with focus on 'OnlineFlightBookingHotelsBusAmp.AdultlastName1'.", repo.OnlineFlightBookingHotelsBusAmp.AdultlastName1Info, new RecordItemIndex(77));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Gupta' with focus on 'OnlineFlightBookingHotelsBusAmp.AdultlastName1'.", repo.OnlineFlightBookingHotelsBusAmp.AdultlastName1Info, new RecordItemIndex(74));
             repo.OnlineFlightBookingHotelsBusAmp.AdultlastName1.PressKeys("Gupta");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.Email' at 246;13.", repo.OnlineFlightBookingHotelsBusAmp.EmailInfo, new RecordItemIndex(78));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.Email' at 246;13.", repo.OnlineFlightBookingHotelsBusAmp.EmailInfo, new RecordItemIndex(75));
             repo.OnlineFlightBookingHotelsBusAmp.Email.Click("246;13");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'testnoc009{LShiftKey down}{@ down}{LShiftKey up}gmail.com' with focus on 'OnlineFlightBookingHotelsBusAmp.Email'.", repo.OnlineFlightBookingHotelsBusAmp.EmailInfo, new RecordItemIndex(79));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'testnoc009{LShiftKey down}{@ down}{LShiftKey up}gmail.com' with focus on 'OnlineFlightBookingHotelsBusAmp.Email'.", repo.OnlineFlightBookingHotelsBusAmp.EmailInfo, new RecordItemIndex(76));
             repo.OnlineFlightBookingHotelsBusAmp.Email.PressKeys("testnoc009{LShiftKey down}{@ down}{LShiftKey up}gmail.com");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.Mobile' at 130;15.", repo.OnlineFlightBookingHotelsBusAmp.MobileInfo, new RecordItemIndex(80));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.Mobile' at 130;15.", repo.OnlineFlightBookingHotelsBusAmp.MobileInfo, new RecordItemIndex(77));
             repo.OnlineFlightBookingHotelsBusAmp.Mobile.Click("130;15");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '9999999999' with focus on 'OnlineFlightBookingHotelsBusAmp.Mobile'.", repo.OnlineFlightBookingHotelsBusAmp.MobileInfo, new RecordItemIndex(81));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '9999999999' with focus on 'OnlineFlightBookingHotelsBusAmp.Mobile'.", repo.OnlineFlightBookingHotelsBusAmp.MobileInfo, new RecordItemIndex(78));
             repo.OnlineFlightBookingHotelsBusAmp.Mobile.PressKeys("9999999999");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.ProceedToPayment' at 101;18.", repo.OnlineFlightBookingHotelsBusAmp.ProceedToPaymentInfo, new RecordItemIndex(82));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.ProceedToPayment' at 101;18.", repo.OnlineFlightBookingHotelsBusAmp.ProceedToPaymentInfo, new RecordItemIndex(79));
             repo.OnlineFlightBookingHotelsBusAmp.ProceedToPayment.Click("101;18");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -840 units.", new RecordItemIndex(83));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -840 units.", new RecordItemIndex(80));
             Mouse.ScrollWheel(-840);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 720 units.", new RecordItemIndex(84));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 720 units.", new RecordItemIndex(81));
             Mouse.ScrollWheel(720);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -600 units.", new RecordItemIndex(85));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -600 units.", new RecordItemIndex(82));
             Mouse.ScrollWheel(-600);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.NetBanking' at 35;12.", repo.OnlineFlightBookingHotelsBusAmp.NetBankingInfo, new RecordItemIndex(86));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.NetBanking' at 35;12.", repo.OnlineFlightBookingHotelsBusAmp.NetBankingInfo, new RecordItemIndex(83));
             repo.OnlineFlightBookingHotelsBusAmp.NetBanking.Click("35;12");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -360 units.", new RecordItemIndex(87));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -360 units.", new RecordItemIndex(84));
             Mouse.ScrollWheel(-360);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.UpiTab' at 16;12.", repo.OnlineFlightBookingHotelsBusAmp.UpiTabInfo, new RecordItemIndex(88));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.UpiTab' at 16;12.", repo.OnlineFlightBookingHotelsBusAmp.UpiTabInfo, new RecordItemIndex(85));
             repo.OnlineFlightBookingHotelsBusAmp.UpiTab.Click("16;12");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.TezTab' at 36;9.", repo.OnlineFlightBookingHotelsBusAmp.TezTabInfo, new RecordItemIndex(89));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.TezTab' at 36;9.", repo.OnlineFlightBookingHotelsBusAmp.TezTabInfo, new RecordItemIndex(86));
             repo.OnlineFlightBookingHotelsBusAmp.TezTab.Click("36;9");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.NetBanking' at 35;7.", repo.OnlineFlightBookingHotelsBusAmp.NetBankingInfo, new RecordItemIndex(90));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.NetBanking' at 35;7.", repo.OnlineFlightBookingHotelsBusAmp.NetBankingInfo, new RecordItemIndex(87));
             repo.OnlineFlightBookingHotelsBusAmp.NetBanking.Click("35;7");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.AmazonPay' at 28;13.", repo.OnlineFlightBookingHotelsBusAmp.AmazonPayInfo, new RecordItemIndex(91));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.AmazonPay' at 28;13.", repo.OnlineFlightBookingHotelsBusAmp.AmazonPayInfo, new RecordItemIndex(88));
             repo.OnlineFlightBookingHotelsBusAmp.AmazonPay.Click("28;13");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.NetBanking' at 39;10.", repo.OnlineFlightBookingHotelsBusAmp.NetBankingInfo, new RecordItemIndex(92));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.NetBanking' at 39;10.", repo.OnlineFlightBookingHotelsBusAmp.NetBankingInfo, new RecordItemIndex(89));
             repo.OnlineFlightBookingHotelsBusAmp.NetBanking.Click("39;10");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.PayNetbRb' at 7;5.", repo.OnlineFlightBookingHotelsBusAmp.PayNetbRbInfo, new RecordItemIndex(93));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.PayNetbRb' at 7;5.", repo.OnlineFlightBookingHotelsBusAmp.PayNetbRbInfo, new RecordItemIndex(90));
             repo.OnlineFlightBookingHotelsBusAmp.PayNetbRb.Click("7;5");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.Submit' at 175;13.", repo.OnlineFlightBookingHotelsBusAmp.SubmitInfo, new RecordItemIndex(94));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.Submit' at 175;13.", repo.OnlineFlightBookingHotelsBusAmp.SubmitInfo, new RecordItemIndex(91));
             repo.OnlineFlightBookingHotelsBusAmp.Submit.Click("175;13");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -240 units.", new RecordItemIndex(95));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -240 units.", new RecordItemIndex(92));
             Mouse.ScrollWheel(-240);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'StateBankOfIndiaInternetBanking.ClickHere' at 11;1.", repo.StateBankOfIndiaInternetBanking.ClickHereInfo, new RecordItemIndex(96));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'StateBankOfIndiaInternetBanking.ClickHere' at 11;1.", repo.StateBankOfIndiaInternetBanking.ClickHereInfo, new RecordItemIndex(93));
             repo.StateBankOfIndiaInternetBanking.ClickHere.Click("11;1");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.HttpsGoibiboIbcdnComStyleguideIma' at 51;10.", repo.OnlineFlightBookingHotelsBusAmp.HttpsGoibiboIbcdnComStyleguideImaInfo, new RecordItemIndex(97));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.HttpsGoibiboIbcdnComStyleguideIma' at 51;10.", repo.OnlineFlightBookingHotelsBusAmp.HttpsGoibiboIbcdnComStyleguideImaInfo, new RecordItemIndex(94));
             repo.OnlineFlightBookingHotelsBusAmp.HttpsGoibiboIbcdnComStyleguideIma.Click("51;10");
             Delay.Milliseconds(200);
             
