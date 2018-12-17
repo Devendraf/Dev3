@@ -1,0 +1,17 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="International_flight.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="International_flight.rxrec" />
+    <Element value="Goibibo_Test.rxtst" />
+    <Element value="Train1.rxrec" />
+    <Element value="URls.rxrec" />
+    <Element value="IH.rxrec" />
+    <Element value="Dom_Flight.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>
