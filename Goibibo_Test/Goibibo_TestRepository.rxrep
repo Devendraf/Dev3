@@ -730,6 +730,26 @@ X/kbNG0rDiYbOAsAAAAASUVORK5CYII=
 				searchtimeout="30000ms">
 					/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/input[@name='insuranceRadio']
 				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="9fe01ee2-4945-4b93-97a5-4c87dc2f7eb4"
+				name="PopOverlayPopShow"
+				refimgid="b7c03d4d-ca16-43ca-baf5-757026a4f0a8"
+				refpath="/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[2]/div/div[1]/div[1]/div[3]/div[1]"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[2]/div/div[1]/div[1]/div[3]/div[1]
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="e6a256f3-2d25-4054-8062-0bdcdc4e44aa"
+				name="JavascriptVoid01"
+				refimgid="2fe42194-ad45-4912-9841-4c753cda669f"
+				refpath="/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[2]/div/div[1]/div[1]/div[3]/div[2]/div/a[@href='javascript:void(0)']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[2]/div/div[1]/div[1]/div[3]//a[@href='javascript:void(0)']
+				</item>
 				<basepath>
 					/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[2]/div/div[1]
 				</basepath>

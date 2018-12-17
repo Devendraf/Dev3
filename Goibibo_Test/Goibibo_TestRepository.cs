@@ -2094,6 +2094,8 @@ namespace Goibibo_Test
             RepoItemInfo _baggageandfarerulesInfo;
             RepoItemInfo _javascriptvoid0Info;
             RepoItemInfo _insuranceradioInfo;
+            RepoItemInfo _popoverlaypopshowInfo;
+            RepoItemInfo _javascriptvoid01Info;
 
             /// <summary>
             /// Creates a new FlightDetailsFl  folder.
@@ -2104,6 +2106,8 @@ namespace Goibibo_Test
                 _baggageandfarerulesInfo = new RepoItemInfo(this, "BaggageAndFareRules", "div[1]/div[2]//a[@innertext='Baggage and Fare Rules']", 30000, null, "275c0c1a-0d6e-4b89-b70e-7cbaa1627ed7");
                 _javascriptvoid0Info = new RepoItemInfo(this, "JavascriptVoid0", "div[1]/div[4]//a[@href='javascript:void(0)']", 30000, null, "fc525d23-10d6-4d5c-be75-04113aa1cbb8");
                 _insuranceradioInfo = new RepoItemInfo(this, "InsuranceRadio", "div[2]/div[2]/div[1]/input[@name='insuranceRadio']", 30000, null, "3aa13848-97f6-40f8-bb53-8225f729dc55");
+                _popoverlaypopshowInfo = new RepoItemInfo(this, "PopOverlayPopShow", "div[1]/div[3]/div[1]", 30000, null, "9fe01ee2-4945-4b93-97a5-4c87dc2f7eb4");
+                _javascriptvoid01Info = new RepoItemInfo(this, "JavascriptVoid01", "div[1]/div[3]//a[@href='javascript:void(0)']", 30000, null, "e6a256f3-2d25-4054-8062-0bdcdc4e44aa");
             }
 
             /// <summary>
@@ -2199,6 +2203,54 @@ namespace Goibibo_Test
                 get
                 {
                     return _insuranceradioInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PopOverlayPopShow item.
+            /// </summary>
+            [RepositoryItem("9fe01ee2-4945-4b93-97a5-4c87dc2f7eb4")]
+            public virtual Ranorex.DivTag PopOverlayPopShow
+            {
+                get
+                {
+                    return _popoverlaypopshowInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PopOverlayPopShow item info.
+            /// </summary>
+            [RepositoryItemInfo("9fe01ee2-4945-4b93-97a5-4c87dc2f7eb4")]
+            public virtual RepoItemInfo PopOverlayPopShowInfo
+            {
+                get
+                {
+                    return _popoverlaypopshowInfo;
+                }
+            }
+
+            /// <summary>
+            /// The JavascriptVoid01 item.
+            /// </summary>
+            [RepositoryItem("e6a256f3-2d25-4054-8062-0bdcdc4e44aa")]
+            public virtual Ranorex.ATag JavascriptVoid01
+            {
+                get
+                {
+                    return _javascriptvoid01Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The JavascriptVoid01 item info.
+            /// </summary>
+            [RepositoryItemInfo("e6a256f3-2d25-4054-8062-0bdcdc4e44aa")]
+            public virtual RepoItemInfo JavascriptVoid01Info
+            {
+                get
+                {
+                    return _javascriptvoid01Info;
                 }
             }
         }

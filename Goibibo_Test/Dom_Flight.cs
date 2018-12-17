@@ -327,13 +327,13 @@ namespace Goibibo_Test
             Mouse.ScrollWheel(-240);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.OfferScroll.ControlIndicatorVMiddle3' at 10;5.", repo.OnlineFlightBookingHotelsBusAmp.OfferScroll.ControlIndicatorVMiddle3Info, new RecordItemIndex(62));
-            repo.OnlineFlightBookingHotelsBusAmp.OfferScroll.ControlIndicatorVMiddle3.Click("10;5");
-            Delay.Milliseconds(200);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.OfferScroll.ControlIndicatorVMiddle3' at 10;5.", repo.OnlineFlightBookingHotelsBusAmp.OfferScroll.ControlIndicatorVMiddle3Info, new RecordItemIndex(62));
+            //repo.OnlineFlightBookingHotelsBusAmp.OfferScroll.ControlIndicatorVMiddle3.Click("10;5");
+            //Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.Header.ButtonTagOK' at 19;10.", repo.OnlineFlightBookingHotelsBusAmp.Header.ButtonTagOKInfo, new RecordItemIndex(63));
-            repo.OnlineFlightBookingHotelsBusAmp.Header.ButtonTagOK.Click("19;10");
-            Delay.Milliseconds(200);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.Header.ButtonTagOK' at 19;10.", repo.OnlineFlightBookingHotelsBusAmp.Header.ButtonTagOKInfo, new RecordItemIndex(63));
+            //repo.OnlineFlightBookingHotelsBusAmp.Header.ButtonTagOK.Click("19;10");
+            //Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.CancellationRadio' at 8;3.", repo.OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.CancellationRadioInfo, new RecordItemIndex(64));
             repo.OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.CancellationRadio.Click("8;3");

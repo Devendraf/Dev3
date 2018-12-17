@@ -4920,112 +4920,6 @@ KKKKACiiigAooooAKKKKACiiigAooooA/9k=
 			<bindings>
 			</bindings>
 		</mousewheelitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="500ms"
-		enabled="False"
-		loc="6;15"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="33363179-a073-4837-8287-c88b57ef9f85"
-		sx="1151"
-		sy="15"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="795336a4-824f-4c9b-bcfb-03216a1bf4e6"
-			sourcename="Recorder">
-				<element
-				capabilities="accessible"
-				dontcache="False"
-				enabled="True"
-				flavor="msaa"
-				hasfocus="False"
-				index="2"
-				prefcap="button"
-				rect="1145,0,36,35"
-				role="button"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="pressed"
-					type="System.Boolean">
-						False
-					</attribute>
-					<attribute
-					name="text"
-					type="System.String">
-						Close
-					</attribute>
-					<attribute
-					name="accessibledefaultaction"
-					type="System.String">
-						press
-					</attribute>
-					<attribute
-					name="accessiblename"
-					type="System.String">
-						Close
-					</attribute>
-					<attribute
-					name="accessiblerole"
-					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						PushButton
-					</attribute>
-					<attribute
-					name="accessiblestate"
-					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						Focusable
-					</attribute>
-					<attribute
-					name="accessiblevalue"
-					type="System.String">
-					</attribute>
-				</element>
-				<path>
-					/form[@title~'^Refer\ &amp;\ Earn\ 3X\ Now\ -\ Goo']/container[@accessiblename='Goibibo - Google Chrome']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename='Goibibo']/button[@accessiblename='Close']
-				</path>
-			</info>
-			<helperscreenshot
-			guid="d5470c41-ad40-4ace-a0a3-26a7ae9911a1">
-				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
-Siikl8475oo/sH0uf/HP/r0VNn2NuaH8zP/Z
-			</helperscreenshot>
-		</mouseitem>
 		<openwebsiterecorditem
 		args=""
 		browser="Chrome"
@@ -5056,6 +4950,25 @@ Siikl8475oo/sH0uf/HP/r0VNn2NuaH8zP/Z
 			<bindings>
 			</bindings>
 		</mousewheelitem>
+		<openwebsiterecorditem
+		args=""
+		browser="Chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				http://www.Goibibo.com/logoutuser/
+			</url>
+		</openwebsiterecorditem>
 		<mousewheelitem
 		delta="720"
 		duration="500ms"
@@ -5067,117 +4980,6 @@ Siikl8475oo/sH0uf/HP/r0VNn2NuaH8zP/Z
 			<bindings>
 			</bindings>
 		</mousewheelitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="500ms"
-		enabled="False"
-		loc="13;17"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="7d404905-8f02-46d5-b5cd-11db3f39fb36"
-		sx="1158"
-		sy="17"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="e7a7d1dd-2421-4a02-a0b0-621cc5217d91"
-			sourcename="Recorder">
-				<element
-				capabilities="accessible"
-				dontcache="False"
-				enabled="True"
-				flavor="msaa"
-				hasfocus="False"
-				index="2"
-				prefcap="button"
-				rect="1145,0,36,35"
-				role="button"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="pressed"
-					type="System.Boolean">
-						False
-					</attribute>
-					<attribute
-					name="text"
-					type="System.String">
-						Close
-					</attribute>
-					<attribute
-					name="accessibledefaultaction"
-					type="System.String">
-						press
-					</attribute>
-					<attribute
-					name="accessiblename"
-					type="System.String">
-						Close
-					</attribute>
-					<attribute
-					name="accessiblerole"
-					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						PushButton
-					</attribute>
-					<attribute
-					name="accessiblestate"
-					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						Focusable
-					</attribute>
-					<attribute
-					name="accessiblevalue"
-					type="System.String">
-					</attribute>
-				</element>
-				<path>
-					/form[@title~'^Refer\ &amp;\ Earn\ 3X\ Now\ -\ Goo']/container[@accessiblename~'^Online\ flight\ booking,\ Ho']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename~'^Online\ flight\ booking,\ Ho']/button[@accessiblename='Close']
-				</path>
-			</info>
-			<helperscreenshot
-			guid="65cda0b5-a717-42ec-b479-fbb2a9cdc56a">
-				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
-YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA/ANIDASIA
-AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
-AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
-ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
-p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
-AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
-BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
-U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
-uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKja
-ZEDNK8aKDjJb27017mJHUM6BCpO8sAOCB/WgCaio1uImnaEON6gHGRSLcRmVo2ZVYNtUFuW4B6fj
-QBLRTBLGZDGJELjqoYZH4Ux7mMRytG6SGIEsqsOMevpQBNRTPNXeFDITnDDdyOM0LNE27bKh2jLY
-YcD3oAfRTY5Y5RmORXHqpzRu/eBMdRnNAGdqv/H9p/8A10/qtadZeqHN7Yf9dT/Na0ZX2ISASQM4
-HU1K3ZvU/hw+f5j6ZLFHMhSVFdT2IzVVb+JvL2MWaQ4Cgcj1z6Yq4pyM1RgcfqtkLO+aNM7CNy+w
-PaoIVYhlAJJ4Aro9VtRPdKx7IB+prOa2EFzb4/icfzFE37pth3+8+/8AIZBpBKgzvg/3V/xqSTSE
-x+7lYH/a5rX2VHbkywq5ABOen1qrmJzc0EkEhSRcH9DTADXS3Vqs0WCORyDVL7APSi4rmQAacM1r
-fYB6Uv2AelMLmUM04ZrT+wj0p32EelILmYM1pW77UYH1H/oC04WQ9KbJa7nYehH/AKCv+FAXJfNF
-FV/sdFILmrMPIl85nhGWOBI+0cgDrjrx+tLbQEpE7KuAjDGMdTn+VW6KQyvBDJE652lfLVSc85Gf
-b3prQSmSQAR7JHDFsncMY7Y9vWrVFAFUW8p2xsIwisWDKTuOc9scdfWmm2meIowiTbEY12k85H04
-HHTmrlFAFZLeRdi5UqjEhs8nIPX35qOS22QJlo1EcW054BOQefbj9au0UAVLaRnlklCoQ5VcxnI4
-znnHP+RVhog8oZlVgARyKfRQBl6mu2808f8ATU9PqK0Jg20lMbscZ6Zqhqv/AB/af/10/qtadSt2
-b1P4cPn+ZimxmS9jaGcrctG8jE/ccgrwR6cn+daNjcrcRsCpjmQ4kibqh/qPQ96bOyx6hE7kKogl
-JJ4A5SqNzcC5uIpdOSR7nyy6SKAFZc4KtkjPP4irMC/df60fSs29/wCPqz/66f1Fad2p3Bu2MVl3
-p/0q0/3/AOoqZ/CaYf8Ai/f+TL8kEUpBkXJHHU1Da2yCNHdCJBzyT61YDA0u4etUYg33TUdOY5pt
-BLClpKWmAUUUUALTWRGOSOemQSD+YpaKAG+UnrJ/39f/ABop9FILlrzf+mb/AJUeb/0zf8qfRRoW
-M83/AKZv+VHm/wDTN/yp9FGgDPN/6Zv+VHm/9M3/ACp9FGgDPN/6Zv8AlR5v/TN/yp9FGgDPN/6Z
-v+VHm/8ATN/yp9FGgGVqvmtPayRQSv5TFiAp9R/hTv7Tuv8AoGzfr/hWnRUOOt0zdVY8qjKN7GLc
-TtdMhn0mZ9nQFmx1B5GOeg6+lV0a6S/FwtjJsEjSBCrEgsuCAfQnnGK6Kiiz7j9pT/k/FmYdSuSM
-HTJSPx/wqrK01zdWzGxliVHBbgnIyPb2rdopcre7GqsIu6jr8yDbH/zxf8jRiH+JGX65qeg88GtL
-o5rEYhiIyF/Wl8mP+7+tJjynGPuMcY9DUlDAZ5Mf939aPJj/ALv605jtQt1wM1X+2f8ATP8AWlcp
-Qb2JvJj/ALv60eTH/d/WolutzhdmMnHWrFFwcbbjPJj/ALv60eTH/d/Wn1Cl1DIkjI4IjOGouJRv
-0H+TH/d/Wiqf9p/9Ml/77/8ArUUuZGnsZdi/RRRTMwooooAKKKKACiiigAooooAKKKKACiiigAoo
-ooAKKKKAGT/6s+uRT6jz5kmB91Tz7mpKbEMmz5MmOu0/yrK2ylNmVGON3OT71rsNyFemRiq/2P8A
-6afpSNYNLcpxea00RO1BuBwM5+hrVqutrtcNvzg56VYoFNp7BXPztBC87224xYGQOmc/yroKgWyt
-1iljEY2y/eFS1cqnNQvczUm0oopJfOO+aKP7B9Ln/wAc/wDr0VNn2NuaH8zP/9k=
-			</helperscreenshot>
-		</mouseitem>
 	</recorditems>
 	<repository
 	id="a00da935-3c1f-4872-b50d-5dfb0266116d"

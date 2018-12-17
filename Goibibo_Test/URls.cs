@@ -667,25 +667,21 @@ namespace Goibibo_Test
             Mouse.ScrollWheel(720);
             Delay.Milliseconds(500);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ReferEarn3XNowGoogleChrome.Close1' at 6;15.", repo.ReferEarn3XNowGoogleChrome.Close1Info, new RecordItemIndex(147));
-            //repo.ReferEarn3XNowGoogleChrome.Close1.Click("6;15");
-            //Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.goibibo.com/logoutuser/' with browser 'Chrome' in normal mode .", new RecordItemIndex(148));
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.goibibo.com/logoutuser/' with browser 'Chrome' in normal mode .", new RecordItemIndex(147));
             Host.Current.OpenBrowser("https://www.goibibo.com/logoutuser/", "Chrome", "", false, false, false, false, false, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -600 units.", new RecordItemIndex(149));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -600 units.", new RecordItemIndex(148));
             Mouse.ScrollWheel(-600);
             Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'http://www.Goibibo.com/logoutuser/' with browser 'Chrome' in normal mode .", new RecordItemIndex(149));
+            Host.Current.OpenBrowser("http://www.Goibibo.com/logoutuser/", "Chrome", "", false, false, false, false, false, true);
+            Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 720 units.", new RecordItemIndex(150));
             Mouse.ScrollWheel(720);
             Delay.Milliseconds(500);
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ReferEarn3XNowGoogleChrome.Close2' at 13;17.", repo.ReferEarn3XNowGoogleChrome.Close2Info, new RecordItemIndex(151));
-            //repo.ReferEarn3XNowGoogleChrome.Close2.Click("13;17");
-            //Delay.Milliseconds(200);
             
         }
 

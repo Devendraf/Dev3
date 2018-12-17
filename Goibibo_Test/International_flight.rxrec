@@ -4052,10 +4052,256 @@ B+dHPoPzpaKAE59B+dHPoPzpaKAE59B+dHPoPzpaKAE59B+dHPoPzpaKAE59B+dLk9xRSN0/GgD/
 			</helperscreenshot>
 		</mouseitem>
 		<mouseitem
+		action="DoubleClick"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="39;19"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="2d56c99a-7a38-4f99-8d3e-65e2e30e2e4a"
+		sx="605"
+		sy="154"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="366d4d3d-2936-4835-8702-c291737525d7"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="1"
+				prefcap="atag"
+				rect="566,135,105,38"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						goTabLink active
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						fltFareRulesTab
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Fare Rules
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						javascript:void(0);
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.goibibo.com']//a[#'fltFareRulesTab']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="2fbed4c4-7b64-47f1-896c-f5a9977fba5b">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mousewheelitem
+		delta="-240"
+		duration="500ms"
+		enabled="True"
+		optional="False"
+		orientation="Vertical">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</mousewheelitem>
+		<mousewheelitem
+		delta="240"
+		duration="500ms"
+		enabled="True"
+		optional="False"
+		orientation="Vertical">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</mousewheelitem>
+		<mouseitem
 		action="Click"
 		button="Left"
 		duration="500ms"
 		enabled="True"
+		loc="3;5"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="e66da1af-9083-4f26-b2a2-17c04d407b6f"
+		sx="894"
+		sy="145"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e6a256f3-2d25-4054-8062-0bdcdc4e44aa"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="891,140,12,12"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						fr icon-close font12Lt popClose
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						javascript:void(0)
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[2]/div/div[1]/div[1]/div[3]//a[@href='javascript:void(0)']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="e8e9bde0-acb9-4add-af9a-fd08958da67d">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABIAEgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDT/tq3
+/wCec35D/GmnXbUNt8ubP0H+NSf2Za/3D/30aT+ybPJPlnnr8xoGrEQ1+1Y4Ec2foP8AGnDXLY9I
+p/yH+NOGkWYziM8/7Rpw0y1HRD/30aWoO3Qb/bVv/wA85vyH+NIdbtx/yymP4D/Gn/2Za/3D/wB9
+Gj+zLX+4f++jTER/27bEgCKc5/2R/jQ2u2yDJimx9B/jT/7Ltc52Ef8AAjVO/wBLihjM0OeOoY5H
+1palKxZGvWjNgJKT9B/jRXOMds24EHBzxRUqfct030OzoooqzIKKKz768uIbxILdI2LJu+b8ff2p
+N2LhBzdkaFFZn2jVdu77NDjGc7h/8VSwXt2b6O3uIo0Dgn5eeMH39qnmRp7CVm0195pVU1Xd/Z0u
+3r8v/oQq3VXVM/2fLg4PHP4iqMUc6sfnOQ+Bt7KKKlt+S7epopJItyadkdPRRRVGYVl3aq2twB/u
++Uc/+PVqVkapHMNQt5EWPDjywZGwu47uPWomro2oSSbu7aMYkkn7pHmBt5GkwAuCArAevOetTOqr
+rlqE+6IuP/HqZDp73WnKJoo1cJOu1+drs/BH0weaVbNrbVopA7+WZCiIzbvl8vOQTz1DUcg41Ur3
+8/xNaqerZ/s2XHXj+Yq5VbUv+PGT8P5irMEYkS7EC0UqkY60UAdHRRRQAVHcQJc27wyjKOMH29/r
+UlFAFWxnd7bbNxNExjk46kd/xGD+NQszzavAgLBIUMrccEnKgZ7fxVaks7aVy8ttC7nqzRgk06G3
+hgz5MMce7rsUDP5UASVW1L/jxk/D+YqzVbUv+PGT8P5igDGXpRQvSigDpaKKKACiiigApG6UUUAM
+yBj3qtqP/HjJ+H8xRRQBjr0ooooA/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="False"
 		loc="50;4"
 		movetime="300ms"
 		optional="False"
@@ -4183,7 +4429,7 @@ ooooAKKKKACiiigAooooAKKKKACiiigD/9k=
 		<mousewheelitem
 		delta="-360"
 		duration="500ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		orientation="Vertical">
 			<comment>
@@ -4194,7 +4440,7 @@ ooooAKKKKACiiigAooooAKKKKACiiigD/9k=
 		<mousewheelitem
 		delta="360"
 		duration="500ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		orientation="Vertical">
 			<comment>
@@ -4206,7 +4452,7 @@ ooooAKKKKACiiigAooooAKKKKACiiigD/9k=
 		action="Click"
 		button="Left"
 		duration="500ms"
-		enabled="True"
+		enabled="False"
 		loc="3;5"
 		movetime="300ms"
 		optional="False"
