@@ -346,6 +346,16 @@ rxversion="8.3">
 			searchtimeout="30000ms">
 				/dom[@domain='www.goibibo.com']//div[#'netBank']/div[3]/div[4]/?/?/input[@type='submit']
 			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="252e84bb-1523-4f74-bb1f-f87cf78812cc"
+			name="HttpsWwwGoibiboCom"
+			refimgid="e0d11a90-cf60-426e-a5b1-dcb512a2df39"
+			refpath="/dom[@domain='www.goibibo.com']/body/div[1]/div[1]/a[@href='https://www.goibibo.com/']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']/body/div[1]/?/?/a[@href='https://www.goibibo.com/']
+			</item>
 			<basepath>
 				/dom[@domain='www.goibibo.com']
 			</basepath>
@@ -750,6 +760,16 @@ X/kbNG0rDiYbOAsAAAAASUVORK5CYII=
 				searchtimeout="30000ms">
 					/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[2]/div/div[1]/div[1]/div[3]//a[@href='javascript:void(0)']
 				</item>
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="4c20c685-d2ab-4241-a34b-d5d444915962"
+				name="ProceedToPayment"
+				refimgid="05b24adb-393e-4455-9772-98ecd9ae7583"
+				refpath="/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[2]/div/div[1]/div[3]/div[2]/div[3]/button[@innertext='Proceed To Payment']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[2]/div/div[1]/div[3]/div[2]/div[3]/button[@innertext='Proceed To Payment']
+				</item>
 				<basepath>
 					/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[2]/div/div[1]
 				</basepath>
@@ -867,6 +887,79 @@ X/kbNG0rDiYbOAsAAAAASUVORK5CYII=
 			searchtimeout="30000ms">
 				/dom[@domain='www.goibibo.com']/body/div[1]/?/?/a[@href='https://www.goibibo.com/']/img[@src='https://goibibo.ibcdn.com/styleguide/images/goLogo.png']
 			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="ddcec806-bb19-40ad-bb5d-f6f9b3a5248f"
+			name="AmazonPay"
+			refimgid="7746e86b-58da-499e-b151-771b27f0f329"
+			refpath="/dom[@domain='www.goibibo.com']//ul[#'tabnav_opts']/li[8]/a[@innertext~'^Amazon\ Pay\ \ \ \ \ \ \ \ \ \ \ \ \ \ ']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//ul[#'tabnav_opts']/?/?/a[@innertext~'^Amazon\ Pay\ \ \ \ \ \ \ \ \ \ \ \ \ \ ']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="ebc85423-4e8a-416f-a555-c77b58c8dc04"
+			name="UpiTab"
+			refimgid="0f627fb8-8788-45be-a96e-e60bc783ddb7"
+			refpath="/dom[@domain='www.goibibo.com']//a[#'upi_tab']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//a[#'upi_tab']
+			</item>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="cacbc308-5dc1-44b1-b266-d4ce148f613f"
+			isrooted="True"
+			name="BorderAllPosRelWhiteBgCrdShdwBrRadiu1"
+			refpath="/dom[@domain='www.goibibo.com']//div[#'fareSummary']/div[1]/div[1]"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="b0b90437-dfe5-4838-91c3-179cb9792f19"
+				name="BorderAllPosRelWhiteBgCrdShdwBrRadiu"
+				refimgid="7c40010e-16ec-41ff-a191-41fe9650d0ec"
+				refpath="/dom[@domain='www.goibibo.com']//div[#'fareSummary']/div[1]/div[1]"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']//div[#'fareSummary']/div[1]/div[1]
+				</item>
+				<item
+				addcaps="unknown,webelement,itag"
+				capname="itag"
+				id="f6401db1-73c5-4b62-bd92-97b7f7a5aef8"
+				name="IconQuestionOp07Ico14FlPadT2PadL5"
+				refimgid="cd0832a8-3d7d-4a7d-98e1-44656c70a48e"
+				refpath="/dom[@domain='www.goibibo.com']//div[#'fareSummary']/div[1]/div[1]/div[2]/div[1]/div[2]/span[2]/i"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']//div[#'fareSummary']/div[1]/div[1]/div[2]/div[1]/div[2]/span[2]/i
+				</item>
+				<item
+				addcaps="unknown,webelement,itag"
+				capname="itag"
+				id="ab25005d-b96b-4177-91e4-4306cf16ed44"
+				name="IconQuestionOp07Ico14FlPadT2PadL51"
+				refimgid="7449676d-a4c1-439c-a867-6905b96c83b0"
+				refpath="/dom[@domain='www.goibibo.com']//div[#'fareSummary']/div[1]/div[1]/div[2]/div[2]/div[2]/span[2]/i"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']//div[#'fareSummary']/div[1]/div[1]/div[2]/div[2]/div[2]/span[2]/i
+				</item>
+				<item
+				addcaps="unknown,webelement,itag"
+				capname="itag"
+				id="8c2275c7-be44-43a8-8dcb-32a4a8fe943b"
+				name="IconQuestionOp07Ico14DbClrTxtRigh"
+				refimgid="64622480-3b6b-40e7-bdd0-ee05a33d7e0b"
+				refpath="/dom[@domain='www.goibibo.com']//div[#'fareSummary']/div[1]/div[1]/div[3]/div/div/div[2]/span[2]/i"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']//div[#'fareSummary']/div[1]/div[1]/div[3]/div/div/div[2]/span[2]/i
+				</item>
+				<basepath>
+					/dom[@domain='www.goibibo.com']//div[#'fareSummary']/div[1]/div[1]
+				</basepath>
+			</folder>
 			<basepath>
 				/dom[@domain='www.goibibo.com']
 			</basepath>

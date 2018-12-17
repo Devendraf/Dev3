@@ -181,6 +181,7 @@ namespace Goibibo_Test
             RepoItemInfo _netbankingInfo;
             RepoItemInfo _paynetbrbInfo;
             RepoItemInfo _submitInfo;
+            RepoItemInfo _httpswwwgoibibocomInfo;
 
             /// <summary>
             /// Creates a new OnlineFlightBookingHotelsBusAmp  folder.
@@ -200,6 +201,7 @@ namespace Goibibo_Test
                 _netbankingInfo = new RepoItemInfo(this, "NetBanking", ".//ul[#'tabnav_opts']/?/?/a[@innertext='Net Banking']", 30000, null, "0c556714-d97a-4f8a-a20b-df8ef07de17c");
                 _paynetbrbInfo = new RepoItemInfo(this, "PayNetbRb", ".//div[#'netBank']/div[2]/div[6]/?/?/input[@name='pay_netb_rb']", 30000, null, "f701c6df-d793-4e58-8ae2-68b77d7be940");
                 _submitInfo = new RepoItemInfo(this, "Submit", ".//div[#'netBank']/div[3]/div[4]/?/?/input[@type='submit']", 30000, null, "47e9d22f-9625-40b8-8b59-69f0fd34e622");
+                _httpswwwgoibibocomInfo = new RepoItemInfo(this, "HttpsWwwGoibiboCom", "body/div[1]/?/?/a[@href='https://www.goibibo.com/']", 30000, null, "252e84bb-1523-4f74-bb1f-f87cf78812cc");
             }
 
             /// <summary>
@@ -463,6 +465,30 @@ namespace Goibibo_Test
                 get
                 {
                     return _submitInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwGoibiboCom item.
+            /// </summary>
+            [RepositoryItem("252e84bb-1523-4f74-bb1f-f87cf78812cc")]
+            public virtual Ranorex.ATag HttpsWwwGoibiboCom
+            {
+                get
+                {
+                    return _httpswwwgoibibocomInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwGoibiboCom item info.
+            /// </summary>
+            [RepositoryItemInfo("252e84bb-1523-4f74-bb1f-f87cf78812cc")]
+            public virtual RepoItemInfo HttpsWwwGoibiboComInfo
+            {
+                get
+                {
+                    return _httpswwwgoibibocomInfo;
                 }
             }
 
@@ -1095,6 +1121,7 @@ namespace Goibibo_Test
         {
             Goibibo_TestRepositoryFolders.FlightDetailsFlFolder _flightdetailsfl;
             Goibibo_TestRepositoryFolders.NavSectionTabsFolder _navsectiontabs;
+            Goibibo_TestRepositoryFolders.BorderAllPosRelWhiteBgCrdShdwBrRadiu1Folder _borderallposrelwhitebgcrdshdwbrradiu1;
             RepoItemInfo _iconflightsdbblueico24lh12padt5pInfo;
             RepoItemInfo _gosuggestinputsrcInfo;
             RepoItemInfo _spantagdelInfo;
@@ -1131,6 +1158,8 @@ namespace Goibibo_Test
             RepoItemInfo _paynetbrbInfo;
             RepoItemInfo _submitInfo;
             RepoItemInfo _httpsgoibiboibcdncomstyleguideimaInfo;
+            RepoItemInfo _amazonpayInfo;
+            RepoItemInfo _upitabInfo;
 
             /// <summary>
             /// Creates a new OnlineFlightBookingHotelsBusAmp1  folder.
@@ -1140,6 +1169,7 @@ namespace Goibibo_Test
             {
                 _flightdetailsfl = new Goibibo_TestRepositoryFolders.FlightDetailsFlFolder(this);
                 _navsectiontabs = new Goibibo_TestRepositoryFolders.NavSectionTabsFolder(this);
+                _borderallposrelwhitebgcrdshdwbrradiu1 = new Goibibo_TestRepositoryFolders.BorderAllPosRelWhiteBgCrdShdwBrRadiu1Folder(this);
                 _iconflightsdbblueico24lh12padt5pInfo = new RepoItemInfo(this, "IconFlightsDbBlueIco24Lh12PadT5P", ".//div[#'header']/div[1]/ul//i", 30000, null, "b7b66c84-1d18-44b6-a1bf-d1064a653ce1");
                 _gosuggestinputsrcInfo = new RepoItemInfo(this, "GosuggestInputSrc", ".//input[#'gosuggest_inputSrc']", 30000, null, "cf954505-d095-48da-a015-20c063b0b780");
                 _spantagdelInfo = new RepoItemInfo(this, "SpanTagDEL", ".//li[#'react-autosuggest-1-suggestion--0']/div/div[2]/div[1]/span[@innertext='(DEL)']", 30000, null, "4bfa64be-fdaf-4ad9-a8b1-cdec92fa8d3b");
@@ -1176,6 +1206,8 @@ namespace Goibibo_Test
                 _paynetbrbInfo = new RepoItemInfo(this, "PayNetbRb", ".//div[#'netBank']/div[2]/div[6]/?/?/input[@name='pay_netb_rb']", 30000, null, "60a4096f-94b8-4724-bc45-b3a67c26e585");
                 _submitInfo = new RepoItemInfo(this, "Submit", ".//div[#'netBank']/div[3]/div[4]/?/?/input[@type='submit']", 30000, null, "5870d526-6c35-4ede-91f8-9c3061ad4fae");
                 _httpsgoibiboibcdncomstyleguideimaInfo = new RepoItemInfo(this, "HttpsGoibiboIbcdnComStyleguideIma", "body/div[1]/?/?/a[@href='https://www.goibibo.com/']/img[@src='https://goibibo.ibcdn.com/styleguide/images/goLogo.png']", 30000, null, "4b5ac744-f9e0-4e2d-8039-d670652d3d4c");
+                _amazonpayInfo = new RepoItemInfo(this, "AmazonPay", ".//ul[#'tabnav_opts']/?/?/a[@innertext~'^Amazon\\ Pay\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ ']", 30000, null, "ddcec806-bb19-40ad-bb5d-f6f9b3a5248f");
+                _upitabInfo = new RepoItemInfo(this, "UpiTab", ".//a[#'upi_tab']", 30000, null, "ebc85423-4e8a-416f-a555-c77b58c8dc04");
             }
 
             /// <summary>
@@ -2067,6 +2099,54 @@ namespace Goibibo_Test
             }
 
             /// <summary>
+            /// The AmazonPay item.
+            /// </summary>
+            [RepositoryItem("ddcec806-bb19-40ad-bb5d-f6f9b3a5248f")]
+            public virtual Ranorex.ATag AmazonPay
+            {
+                get
+                {
+                    return _amazonpayInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AmazonPay item info.
+            /// </summary>
+            [RepositoryItemInfo("ddcec806-bb19-40ad-bb5d-f6f9b3a5248f")]
+            public virtual RepoItemInfo AmazonPayInfo
+            {
+                get
+                {
+                    return _amazonpayInfo;
+                }
+            }
+
+            /// <summary>
+            /// The UpiTab item.
+            /// </summary>
+            [RepositoryItem("ebc85423-4e8a-416f-a555-c77b58c8dc04")]
+            public virtual Ranorex.ATag UpiTab
+            {
+                get
+                {
+                    return _upitabInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The UpiTab item info.
+            /// </summary>
+            [RepositoryItemInfo("ebc85423-4e8a-416f-a555-c77b58c8dc04")]
+            public virtual RepoItemInfo UpiTabInfo
+            {
+                get
+                {
+                    return _upitabInfo;
+                }
+            }
+
+            /// <summary>
             /// The FlightDetailsFl folder.
             /// </summary>
             [RepositoryFolder("ee635338-262a-4cc4-8ceb-18ee5a8f9e29")]
@@ -2083,6 +2163,15 @@ namespace Goibibo_Test
             {
                 get { return _navsectiontabs; }
             }
+
+            /// <summary>
+            /// The BorderAllPosRelWhiteBgCrdShdwBrRadiu1 folder.
+            /// </summary>
+            [RepositoryFolder("cacbc308-5dc1-44b1-b266-d4ce148f613f")]
+            public virtual Goibibo_TestRepositoryFolders.BorderAllPosRelWhiteBgCrdShdwBrRadiu1Folder BorderAllPosRelWhiteBgCrdShdwBrRadiu1
+            {
+                get { return _borderallposrelwhitebgcrdshdwbrradiu1; }
+            }
         }
 
         /// <summary>
@@ -2096,6 +2185,7 @@ namespace Goibibo_Test
             RepoItemInfo _insuranceradioInfo;
             RepoItemInfo _popoverlaypopshowInfo;
             RepoItemInfo _javascriptvoid01Info;
+            RepoItemInfo _proceedtopaymentInfo;
 
             /// <summary>
             /// Creates a new FlightDetailsFl  folder.
@@ -2108,6 +2198,7 @@ namespace Goibibo_Test
                 _insuranceradioInfo = new RepoItemInfo(this, "InsuranceRadio", "div[2]/div[2]/div[1]/input[@name='insuranceRadio']", 30000, null, "3aa13848-97f6-40f8-bb53-8225f729dc55");
                 _popoverlaypopshowInfo = new RepoItemInfo(this, "PopOverlayPopShow", "div[1]/div[3]/div[1]", 30000, null, "9fe01ee2-4945-4b93-97a5-4c87dc2f7eb4");
                 _javascriptvoid01Info = new RepoItemInfo(this, "JavascriptVoid01", "div[1]/div[3]//a[@href='javascript:void(0)']", 30000, null, "e6a256f3-2d25-4054-8062-0bdcdc4e44aa");
+                _proceedtopaymentInfo = new RepoItemInfo(this, "ProceedToPayment", "div[3]/div[2]/div[3]/button[@innertext='Proceed To Payment']", 30000, null, "4c20c685-d2ab-4241-a34b-d5d444915962");
             }
 
             /// <summary>
@@ -2251,6 +2342,30 @@ namespace Goibibo_Test
                 get
                 {
                     return _javascriptvoid01Info;
+                }
+            }
+
+            /// <summary>
+            /// The ProceedToPayment item.
+            /// </summary>
+            [RepositoryItem("4c20c685-d2ab-4241-a34b-d5d444915962")]
+            public virtual Ranorex.ButtonTag ProceedToPayment
+            {
+                get
+                {
+                    return _proceedtopaymentInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ProceedToPayment item info.
+            /// </summary>
+            [RepositoryItemInfo("4c20c685-d2ab-4241-a34b-d5d444915962")]
+            public virtual RepoItemInfo ProceedToPaymentInfo
+            {
+                get
+                {
+                    return _proceedtopaymentInfo;
                 }
             }
         }
@@ -2421,6 +2536,150 @@ namespace Goibibo_Test
                 get
                 {
                     return _nonstopInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The BorderAllPosRelWhiteBgCrdShdwBrRadiu1Folder folder.
+        /// </summary>
+        [RepositoryFolder("cacbc308-5dc1-44b1-b266-d4ce148f613f")]
+        public partial class BorderAllPosRelWhiteBgCrdShdwBrRadiu1Folder : RepoGenBaseFolder
+        {
+            RepoItemInfo _borderallposrelwhitebgcrdshdwbrradiuInfo;
+            RepoItemInfo _iconquestionop07ico14flpadt2padl5Info;
+            RepoItemInfo _iconquestionop07ico14flpadt2padl51Info;
+            RepoItemInfo _iconquestionop07ico14dbclrtxtrighInfo;
+
+            /// <summary>
+            /// Creates a new BorderAllPosRelWhiteBgCrdShdwBrRadiu1  folder.
+            /// </summary>
+            public BorderAllPosRelWhiteBgCrdShdwBrRadiu1Folder(RepoGenBaseFolder parentFolder) :
+                    base("BorderAllPosRelWhiteBgCrdShdwBrRadiu1", ".//div[#'fareSummary']/div[1]/div[1]", parentFolder, 30000, null, false, "cacbc308-5dc1-44b1-b266-d4ce148f613f", "")
+            {
+                _borderallposrelwhitebgcrdshdwbrradiuInfo = new RepoItemInfo(this, "BorderAllPosRelWhiteBgCrdShdwBrRadiu", "", 30000, null, "b0b90437-dfe5-4838-91c3-179cb9792f19");
+                _iconquestionop07ico14flpadt2padl5Info = new RepoItemInfo(this, "IconQuestionOp07Ico14FlPadT2PadL5", "div[2]/div[1]/div[2]/span[2]/i", 30000, null, "f6401db1-73c5-4b62-bd92-97b7f7a5aef8");
+                _iconquestionop07ico14flpadt2padl51Info = new RepoItemInfo(this, "IconQuestionOp07Ico14FlPadT2PadL51", "div[2]/div[2]/div[2]/span[2]/i", 30000, null, "ab25005d-b96b-4177-91e4-4306cf16ed44");
+                _iconquestionop07ico14dbclrtxtrighInfo = new RepoItemInfo(this, "IconQuestionOp07Ico14DbClrTxtRigh", "div[3]/div/div/div[2]/span[2]/i", 30000, null, "8c2275c7-be44-43a8-8dcb-32a4a8fe943b");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("cacbc308-5dc1-44b1-b266-d4ce148f613f")]
+            public virtual Ranorex.DivTag Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("cacbc308-5dc1-44b1-b266-d4ce148f613f")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The BorderAllPosRelWhiteBgCrdShdwBrRadiu item.
+            /// </summary>
+            [RepositoryItem("b0b90437-dfe5-4838-91c3-179cb9792f19")]
+            public virtual Ranorex.DivTag BorderAllPosRelWhiteBgCrdShdwBrRadiu
+            {
+                get
+                {
+                    return _borderallposrelwhitebgcrdshdwbrradiuInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BorderAllPosRelWhiteBgCrdShdwBrRadiu item info.
+            /// </summary>
+            [RepositoryItemInfo("b0b90437-dfe5-4838-91c3-179cb9792f19")]
+            public virtual RepoItemInfo BorderAllPosRelWhiteBgCrdShdwBrRadiuInfo
+            {
+                get
+                {
+                    return _borderallposrelwhitebgcrdshdwbrradiuInfo;
+                }
+            }
+
+            /// <summary>
+            /// The IconQuestionOp07Ico14FlPadT2PadL5 item.
+            /// </summary>
+            [RepositoryItem("f6401db1-73c5-4b62-bd92-97b7f7a5aef8")]
+            public virtual Ranorex.ITag IconQuestionOp07Ico14FlPadT2PadL5
+            {
+                get
+                {
+                    return _iconquestionop07ico14flpadt2padl5Info.CreateAdapter<Ranorex.ITag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The IconQuestionOp07Ico14FlPadT2PadL5 item info.
+            /// </summary>
+            [RepositoryItemInfo("f6401db1-73c5-4b62-bd92-97b7f7a5aef8")]
+            public virtual RepoItemInfo IconQuestionOp07Ico14FlPadT2PadL5Info
+            {
+                get
+                {
+                    return _iconquestionop07ico14flpadt2padl5Info;
+                }
+            }
+
+            /// <summary>
+            /// The IconQuestionOp07Ico14FlPadT2PadL51 item.
+            /// </summary>
+            [RepositoryItem("ab25005d-b96b-4177-91e4-4306cf16ed44")]
+            public virtual Ranorex.ITag IconQuestionOp07Ico14FlPadT2PadL51
+            {
+                get
+                {
+                    return _iconquestionop07ico14flpadt2padl51Info.CreateAdapter<Ranorex.ITag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The IconQuestionOp07Ico14FlPadT2PadL51 item info.
+            /// </summary>
+            [RepositoryItemInfo("ab25005d-b96b-4177-91e4-4306cf16ed44")]
+            public virtual RepoItemInfo IconQuestionOp07Ico14FlPadT2PadL51Info
+            {
+                get
+                {
+                    return _iconquestionop07ico14flpadt2padl51Info;
+                }
+            }
+
+            /// <summary>
+            /// The IconQuestionOp07Ico14DbClrTxtRigh item.
+            /// </summary>
+            [RepositoryItem("8c2275c7-be44-43a8-8dcb-32a4a8fe943b")]
+            public virtual Ranorex.ITag IconQuestionOp07Ico14DbClrTxtRigh
+            {
+                get
+                {
+                    return _iconquestionop07ico14dbclrtxtrighInfo.CreateAdapter<Ranorex.ITag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The IconQuestionOp07Ico14DbClrTxtRigh item info.
+            /// </summary>
+            [RepositoryItemInfo("8c2275c7-be44-43a8-8dcb-32a4a8fe943b")]
+            public virtual RepoItemInfo IconQuestionOp07Ico14DbClrTxtRighInfo
+            {
+                get
+                {
+                    return _iconquestionop07ico14dbclrtxtrighInfo;
                 }
             }
         }
