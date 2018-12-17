@@ -127,6 +127,7 @@
       <DependentUpon>Car.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>b054bea7-ef6f-4eba-8aec-fc7c7de0f793</id>
+      <RepositoryCode>true</RepositoryCode>
     </Compile>
     <Compile Include="Car.UserCode.cs">
       <BoundTo>7b3ea8c3-1d62-463f-83c6-a058c28ce41c</BoundTo>
